@@ -15,18 +15,18 @@ export default function ComingSoon() {
 
       <div className="relative z-10 flex flex-col items-center text-center px-4 fade-in">
         {/* Logo */}
-        <div className="mb-12">
+        <div className="mb-8 w-64 md:w-96">
           <Image 
             src="/logo.png" 
             alt="Šajka Logo" 
-            width={500} 
-            height={500} 
-            className="object-contain drop-shadow-2xl"
+            width={400} 
+            height={400} 
+            className="w-full h-auto object-contain drop-shadow-2xl"
           />
         </div>
 
         {/* Text in 3 Languages */}
-        <div className="space-y-6 text-sajka-gold font-sajka-serif tracking-widest uppercase">
+        <div className="space-y-4 md:space-y-6 text-sajka-gold font-sajka-serif tracking-widest uppercase">
           <h1 className="text-3xl md:text-5xl drop-shadow-md">Наскоро</h1>
           <h2 className="text-2xl md:text-4xl drop-shadow-md opacity-90">Coming Soon</h2>
           <h3 className="text-2xl md:text-4xl drop-shadow-md opacity-80">Çok Yakında</h3>
