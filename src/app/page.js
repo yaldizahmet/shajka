@@ -19,17 +19,17 @@ export default function ComingSoon() {
           <Image 
             src="/logo.png" 
             alt="Šajka Logo" 
-            width={300} 
-            height={300} 
+            width={500} 
+            height={500} 
             className="object-contain drop-shadow-2xl"
           />
         </div>
 
         {/* Text in 3 Languages */}
         <div className="space-y-6 text-sajka-gold font-sajka-serif tracking-widest uppercase">
-          <h1 className="text-3xl md:text-5xl drop-shadow-md">Çok Yakında</h1>
+          <h1 className="text-3xl md:text-5xl drop-shadow-md">Наскоро</h1>
           <h2 className="text-2xl md:text-4xl drop-shadow-md opacity-90">Coming Soon</h2>
-          <h3 className="text-2xl md:text-4xl drop-shadow-md opacity-80">Наскоро</h3>
+          <h3 className="text-2xl md:text-4xl drop-shadow-md opacity-80">Çok Yakında</h3>
         </div>
 
         <div className="mt-16 w-24 h-1 bg-sajka-gold rounded-full opacity-50"></div>
